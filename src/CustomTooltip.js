@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tooltip } from 'react-tippy';
-import 'react-tippy/dist/tippy.css';
+import './tippy.css';
 
 const CustomTooltip = () => (
   <Tooltip title="Welcome to React" position="bottom" trigger="click">
