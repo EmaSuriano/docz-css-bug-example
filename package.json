@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "docz": "^0.6.2",
-    "docz-plugin-css": "^0.6.2",
+    "docz": "^0.7.0",
+    "docz-plugin-css": "^0.7.0",
     "react-tippy": "^1.2.2"
   }
 }
