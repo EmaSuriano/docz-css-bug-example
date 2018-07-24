@@ -1232,6 +1232,14 @@ array-reduce@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/array-reduce/-/array-reduce-0.0.0.tgz#173899d3ffd1c7d9383e4479525dbe278cab5f2b"
 
+array-sort@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/array-sort/-/array-sort-1.0.0.tgz#e4c05356453f56f53512a7d1d6123f2c54c0a88a"
+  dependencies:
+    default-compare "^1.0.0"
+    get-value "^2.0.6"
+    kind-of "^5.0.2"
+
 array-union@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
@@ -2651,6 +2659,12 @@ deepmerge@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
 
+default-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/default-compare/-/default-compare-1.0.0.tgz#cb61131844ad84d84788fb68fd01681ca7781a2f"
+  dependencies:
+    kind-of "^5.0.2"
+
 define-properties@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
@@ -2839,9 +2853,9 @@ docz-core@^0.7.0:
     ws "^6.0.0"
     yargs "^12.0.1"
 
-docz-plugin-css@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/docz-plugin-css/-/docz-plugin-css-0.7.0.tgz#f3e2d6acdaf953a45da04ac3cbbb1e669b6b9d8f"
+docz-plugin-css@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/docz-plugin-css/-/docz-plugin-css-0.7.1.tgz#910dbc778929ba405b57b1266e7c9a9235594bb0"
   dependencies:
     autoprefixer "^9.0.1"
     css-loader "^1.0.0"
@@ -2863,12 +2877,12 @@ docz-plugin-css@^0.7.0:
     webpack "^4.16.1"
     webpack-chain "^4.8.0"
 
-docz-theme-default@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.7.0.tgz#e66f192c94fe3cfbd4cd7b8d00b0a94cd2cc608e"
+docz-theme-default@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/docz-theme-default/-/docz-theme-default-0.7.1.tgz#a940020e225a812a02013a507b1026e925600e2a"
   dependencies:
     copy-text-to-clipboard "^1.0.4"
-    docz "^0.7.0"
+    docz "^0.7.1"
     emotion "^9.2.6"
     emotion-theming "^9.2.6"
     facepaint "^1.2.1"
@@ -2888,17 +2902,18 @@ docz-theme-default@^0.7.0:
     react-syntax-highlighter "^8.0.1"
     webfontloader "^1.6.28"
 
-docz@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/docz/-/docz-0.7.0.tgz#2676cc33dc9bf58aff6b7d6d9553030f872726ce"
+docz@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/docz/-/docz-0.7.1.tgz#b9588eafa633d9b520a98eaa74d68f3c9e410ac9"
   dependencies:
     "@mdx-js/tag" "^0.14.1"
     "@sindresorhus/slugify" "^0.3.0"
+    array-sort "^1.0.0"
     capitalize "^1.0.0"
     create-react-context "^0.2.2"
     deepmerge "^2.1.1"
     docz-core "^0.7.0"
-    docz-theme-default "^0.7.0"
+    docz-theme-default "^0.7.1"
     env-dot-prop "^1.0.2"
     invariant "^2.2.4"
     loadable-components "^2.2.2"
@@ -4737,7 +4752,7 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
-kind-of@^5.0.0:
+kind-of@^5.0.0, kind-of@^5.0.2:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-5.1.0.tgz#729c91e2d857b7a419a1f9aa65685c4c33f5845d"
 
